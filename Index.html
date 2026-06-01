@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio | Leonardo Fiore</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+
+<body>
+    <!-- Barra de navegación -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">LF</a>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#sobre-mi">Sobre Mí</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+            <div class="menu-hamburguesa">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Sección Hero -->
+    <section id="inicio" class="hero">
+        <div class="container hero-content">
+            <div class="foto-perfil">
+                <img src="img/Foto de Perfil.png" alt="Foto de Leonardo Fiore">
+            </div>
+            <h1>Leonardo Fiore</h1>
+            <p></p>
+            <p>Desarrollador Frontend | Apasionado por crear interfaces intuitivas</p>
+            <a href="#proyectos" class="scroll-down">
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- Galería de Proyectos -->
+    <section id="proyectos" class="galeria-proyectos">
+        <div class="container">
+            <h2 class="section-title">Mis Proyectos</h2>
+            <div class="grid-container">
+                <div class="tarjeta-proyecto">
+                    <div
+                        style="background-color: #2c3e50; height: 200px; display: flex; align-items: center; justify-content: center; color: white; border-radius: 5px;">
+                        <i class="fas fa-code" style="font-size: 4rem;"></i>
+                    </div>
+                    <h3>Portafolio Personal</h3>
+                    <p>Diseño y desarrollo de mi propio portafolio web responsivo utilizando HTML y CSS.</p>
+                    <p><strong>Tecnologías:</strong> HTML5, CSS3, JavaScript</p>
+                    <a href="https://tu-usuario.github.io/mi-portafolio/" target="_blank" class="proyecto-link">Ver proyecto →</a>
+                </div>
+
+                <div class="tarjeta-proyecto">
+                    <div
+                        style="background-color: #3498db; height: 200px; display: flex; align-items: center; justify-content: center; color: white; border-radius: 5px;">
+                        <i class="fas fa-shopping-cart" style="font-size: 4rem;"></i>
+                    </div>
+                    <h3>Tienda Online</h3>
+                    <p>Interfaz de e-commerce con carrito de compras funcional y diseño responsivo.</p>
+                    <p><strong>Tecnologías:</strong> HTML, CSS, JavaScript</p>
+                    <p><strong>Descripción:</strong> Este es un concepto visual. Próximamente implementaré la versión
+                        funcional.</p>
+                        <a href="" target="_blank" class="proyecto-link">Ver proyecto →</a>
+                </div>
+
+                <div class="tarjeta-proyecto">
+                    <div
+                        style="background-color: #e74c3c; height: 200px; display: flex; align-items: center; justify-content: center; color: white; border-radius: 5px;">
+                        <i class="fas fa-cloud-sun" style="font-size: 4rem;"></i>
+                    </div>
+                    <h3>Aplicación Meteorológica</h3>
+                    <p>Sistema que muestra el clima actual utilizando datos de una API meteorológica.</p>
+                    <p><strong>Tecnologías:</strong> HTML, CSS, JavaScript, API REST</p>
+                    <p><strong>Descripción:</strong> Este es un concepto visual. Próximamente implementaré la versión
+                        funcional.</p>
+                        <a href="" target="_blank" class="proyecto-link">Ver proyecto →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Sobre Mí -->
+    <section id="sobre-mi" class="sobre-mi">
+        <div class="container">
+            <h2 class="section-title">Sobre Mí</h2>
+            <div class="sobre-mi">
+                <div class="sobre-mi-content">
+                    <p>Soy un estudiante de informática dando sus primeros pasos en el frontend gracias a diversos
+                        cursos y proyectos personales. Me considero un aprendiz entusiasta y
+                        apasionado por crear interfaces de usuario intuitivas y accesibles.<br>
+
+                        Aunque no he ejercido formalmente y trabajé fuera del rubro los últimos años, he decidido
+                        retomar mi pasión por crear sitios web, retomando el estudio de HTML5, CSS3 y fundamentos de
+                        JavaScript.<br><br>
+
+                        Mi enfoque es crear páginas limpias, adaptables a móviles y fáciles de mantener.<br><br>
+
+                        Lo que puedo hacer hoy:<br>
+                        <div style="margin-left: 20px;">
+                            <ul>
+                                <li>sitios con HTML semántico<br></li>
+                                <li>Estilizar con CSS (Flexbox, Grid, colores, tipografía)<br></li>
+                                <li>Hacer que el sitio se vea bien en celular y computadora con diseño responsivo<br>
+                                </li>
+                                <li>Agregar interacciones simples con JavaScript (formularios, botones, menús)<br></li>
+                            </ul>
+                        </div><br>
+
+                        Mi objetivo es crecer como desarrollador dentro de un ambiente, donde pueda
+                        aprender diseño y lógica de negocio mientras aporto mi esfuerzo y mi capacidad para resolver
+                        problemas.
+                    </p>
+                </div>
+                <div class="sobre-mi-img">
+                    <img src="Img\1photo.avif" alt="sobre mi">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pie de página -->
+    <footer id="contacto">
+        <div class="container">
+            <h2 class="section-title">Contacto</h2>
+            <div class="contacto">
+                <a href="mailto:onlinefiore23@gmail.com">
+                    <i class="fas fa-envelope"></i> onlinefiore23@gmail.com
+                </a>
+                <a href="https://wa.me/+5804244155924" target="_blank">
+                    <i class="fab fa-whatsapp"></i> Whatsapp
+                </a>
+                <a href="https://github.com/SrFiore" target="_blank">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+                <a href="https://www.linkedin.com/in/leonardofiore/" target="_blank">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+
+            </div>
+            <div class="copyright">
+                <p>&copy; 2026 Leonardo Fiore. Todos los derechos reservados.</p>
+
+            </div>
+        </div>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
